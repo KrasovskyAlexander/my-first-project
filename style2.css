@@ -1,0 +1,127 @@
+body,html{
+    height: 100%;
+    width: 100%;
+}
+body{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    display: flex;
+    justify-content:space-between;
+    flex: 1 0 auto;
+    padding:20px;
+    background-color: black;
+}
+    
+.main-nav{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    margin-top: 40%;
+    
+    
+}
+.main-nav li a{
+    color: rgb(215,215,215);
+    text-decoration: none;
+    display: block;
+    padding:10px;
+    font-size: 30px;
+    font-family: 'PT Mono', monospace;
+    
+}
+
+
+footer{
+    display: flex;
+    justify-content:space-between;
+    flex-shrink: 0;
+    background-color: black;
+    color: rgb(215,215,215);
+    padding: 20px;
+}
+
+.main_content{
+    display: flex;
+    background-color: rgb(245, 245, 245);
+    justify-content: center;
+    flex: 1 0 auto;
+    height: auto;
+    width: 100%;
+    
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    flex:1 0 auto;
+    background-color: rgb(225, 225, 225);
+    width: 70%;
+    height:auto;
+    margin-left: 15%;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    margin-right: 15%;
+    border: 3px solid rgb(225, 225, 225);
+    border-radius: 10px;
+    
+}
+
+
+article{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    align-items:center;
+}
+h1{
+    font-size: 25px;
+    font-family:'Yeseva One', cursive;
+}
+p{
+    font-size: 18px;
+    font-family: 'Nunito', sans-serif;
+}
+.img{
+    margin: 20px;
+    width: 1000px;
+}
+.kratko{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    font-size: 18px;
+    font-family: 'Nunito', sans-serif;
+}
+.kratko li{
+    padding: 10px;
+}
+.small_pic{
+    width: 70px;
+}
+.social{
+    display: flex;
+}
+.aside_ul{
+    padding: 20px;
+    margin: 0;
+    font-size: 18px;
+    font-family: 'Nunito', sans-serif;
+}
+.aside_ul li{
+    padding: 5px;
+}
+.small_pic2{
+     width: 20px;
+}
+.main_text2{
+    font-size: 23px;
+     font-family: 'PT Mono', monospace;
+}
